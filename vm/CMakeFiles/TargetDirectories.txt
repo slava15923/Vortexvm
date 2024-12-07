@@ -1,0 +1,3 @@
+/media/slava15923/ssd2/gavm/vm/CMakeFiles/gavm.dir
+/media/slava15923/ssd2/gavm/vm/CMakeFiles/edit_cache.dir
+/media/slava15923/ssd2/gavm/vm/CMakeFiles/rebuild_cache.dir
