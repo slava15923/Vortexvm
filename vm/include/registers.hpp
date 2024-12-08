@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include <stdio.h>
+
 typedef struct _registersthreat {
     double frax;//64 bits register float
         float feax;//32 bits register float

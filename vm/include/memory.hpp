@@ -2,10 +2,10 @@
 #include <iostream>
 
 
-class VirtualMemory {
+class VirtualMemoryFunction {
 public:
-    VirtualMemory();
-    ~VirtualMemory();
+    VirtualMemoryFunction();
+    ~VirtualMemoryFunction();
     void* getDataInAdress(uint32_t adress);
     void* setDataInAdress(uint32_t adress, void* data);
     void setMemorySize(uint32_t size);
