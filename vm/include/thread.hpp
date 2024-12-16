@@ -7,6 +7,7 @@
 typedef struct thread
 {
     line* line;
+    // file //code
     registersthreat* registers;
     VirtualMemory memory;
 };
