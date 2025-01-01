@@ -5,4 +5,4 @@
 
 
 
-thread** threads;
+thread* MAIN;//main thread

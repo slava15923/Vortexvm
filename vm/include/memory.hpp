@@ -6,9 +6,13 @@ class VirtualMemory {
 public:
     VirtualMemory();
     ~VirtualMemory();
-    void* getDataInAdress(uint32_t adress);
-    void* setDataInAdress(uint32_t adress, void* data);
-    void setMemorySize(uint32_t size);
+    void* getDataInAdress(uint args);
+    void* setDataInAdress(uint args1, uint args2);//из args1 в args2 копипует данные
+    void setMemorySize(uint size);
+    void setArgsSize(uint size);//выполнять ТОЛЬКО после setMemorySize()
+    void setNumFunction(uint size);
+    void addAllFunction(void** adressAllFunc);//выполнять ТОЛЬКО после setNumFunction
 private:
     void** memory;
+    uint* sizeargs;
 };

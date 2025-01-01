@@ -49,16 +49,16 @@ void** setregistersinvirtualmemory(void** memory, uint32_t mallocsize, registers
         memory[-3] = &registers->frbx;//64 bits register float
             memory[-4] = &registers->febx;//32 bits register float
         memory[-5] = &registers->rax;//64 bits register
-        memory[-6] = &registers->eax;//32 bits register
-        memory[-7] = &registers->ax;//16 bits register
-        memory[-8] = &registers->ah;//8 bits register
-        memory[-9] = &registers->al;//8 bits register
+            memory[-6] = &registers->eax;//32 bits register
+                memory[-7] = &registers->ax;//16 bits register
+                memory[-8] = &registers->ah;//8 bits register
+                memory[-9] = &registers->al;//8 bits register
         memory[-10] = &registers->rbx;//64 bits register
-        memory[-11] = &registers->ebx;//322 bits register
-        memory[-12] = &registers->bx;//16 bits register
-        memory[-13] = &registers->bh;//8 bits register
-        memory[-14] = &registers->bl;//8 bits register
-        
+            memory[-11] = &registers->ebx;//322 bits register
+                memory[-12] = &registers->bx;//16 bits register
+                    memory[-13] = &registers->bh;//8 bits register
+                    memory[-14] = &registers->bl;//8 bits register
+
         memory[-15] = &registers->dx0;//adress in memory
         memory[-16] = &registers->dx1;//adress in memory
         memory[-17] = &registers->dx2;//adress in memory
